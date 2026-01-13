@@ -17,7 +17,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://admin:admin@cluster0.mongodb.net/ubereats_clone?retryWrites=true&w=majority";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://euber5676_db_user:80D50000@cluster0.llhgsxn.mongodb.net/";
 
 console.log('Starting backend server...');
 
